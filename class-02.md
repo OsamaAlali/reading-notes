@@ -1,72 +1,91 @@
-Chapter 3 :list
-Theres 3 type of list:
-1.orderd list: the list item will be number not point.
-    . we used ol tag to declarer ordered list and li tag for list item
-2. unordered list: the list item will be with bullet point.
-      . we used ul tag to declarer unordered list and li tag for list item
+Chapter 2 :Text
 
-3- definition lists: are made up of a set of terms along with the definitions for each of those terms.
-.     we used dl tag to declarer Definition list and dt tag for the being term of definition and dd tag used to the definition. 
+    Heading :there’s six level of heading h1 main heading then h2 subheading.
 
--	We can used nested list in list item can put anther list type
+    paragraphs: using tag p .
 
-Chapter 13: Box
-- box is sized just big enough to hold its contents. and the dimensions for the box represent by heights and width.pixle is the popular way  to width and heights.
+    Bold and italic: B tag for bold and I tag for italic .
 
--min and max width:
-     . min width: the smallest size a box can be displayed at when the browser window is small window  
-     .Max width :the maximum width a box can stretch to when the browser window is wide.
--min and max height: the thing for width but this for height
--overflow we used it if the content size big than box
--each box have three properties :
-1. Border 2.margin 3 padding
-- The border-width property is used to control the width of a border:can work with pixel or with values( thin ,medium, thick).
--border-style property:( solid, dotted, dashed, double)
-- border-color property
-- border property :allows you to specify the width, style and color of a border in one property
--padding property: allows you to specify how much space should appear between the content of an element and its border.
+    superscript and subscript:
+        Used to make elements like power we will used sup tag for 4 th and used sub tag like h2o.
 
-- margin property: controls the space between  elements .
--To center   box in browser we will set left-margin and right-margin to auto.
-- display property: allows you to turn an inline element into a block-level element or vice versa, and can also be used to hide an element from the page.( inline, block, inline-block, none);
-- visibility(hidden, visible);
+    line break and horizontal rules: For break line we used br/ tag for add line we used hr/ tag.
 
-                                      JavaScript
-ARRAYS: are special types of variables that store more than one piece of related information.
--we used it when we not know how many elements should allocate storage for it;
--Two way to create array:
-    1.let username=[‘osama’,’ahmad’,1];
-    2. let username =new array(‘osam’,ahmad’);
--each value in array have index starting from 0;
--.length ; return number of element.
+    for make some information important we used strong tag.
 
--A switch statement: starts with a variable called the switch value. 
-Each case indicates a possible value for this variable and the code that should run if the variable matches that value.
+    quotations: we used blockquote tag for paragraphs, tag q used for short text
 
-Switch(){
+    Cite tag used reference like book , dfn tag used for terminology.
 
-Case ‘one’:
+    Address tag its contains information about contact.
 
-Count++;
+    ins tag to show insert info ,del tag show info deleted , s tag used like sale on old price
 
-Break;
+Chapter 10:CSS
 
-Default :
+    Cascading style sheet used to style websit . -Three way to type it:
 
-Count--;
+    Inline ‘p style= “color:red” ’
+    style p{color:red} ‘style’
+    By using external file and called by using link tag in header in html file.
 
-Break;
-}
--	JavaScript is weak type , because that we should used strict equals .
+    CSS selectors
 
--LOOP
-To execute a set of code in one block until condition not met and to reduced redundant code 3 type of loop
-1.	For: used when the iteration (time ) know. like print ur Name 10 time.
-For (initialization, condition ,update)
-{ set of code, }
+        • universal selector * {} • type selector h1,h3 {}; • class selector .note {} • Id selector #note
 
-2 . while :used if we not know the # of iteration .
-While(condtion) { Execute code }
+    Some of declaration in Css:
 
-3.do..While:is the same while the key different is the code will execute at least one time .
-Do{ Execute code at least 1 before checking condition }while();
+    Margin is the space between two elements
+    Margin: top right bottom left;
+    Padding is the space between the content it self and its border
+    Padding : top right bottom left;
+    Text-align: when we want to align text on the center
+    colors: -name: red -hexadecemil: #0000ff -rgb(red,green,blue) -rgba(red,green,blue,alpha) alpha is for the opacity of the color! -hsl: hsl(hue, saturation, lightness)
+
+javascript
+
+chaper2 :
+
+    A script is a series of instructions that a computer can follow one-by-one.
+    JAVASCRIPT IS CASE SENSITIVE
+    comments written explain what your code does.
+    A script will have to temporarily store the bits of information in side veriable.
+    To declare variable we used let username=’osama’;
+    DATA TYPES : Number ,string , Boolean
+    QUOTES: want to use single quotes in the string, you could surround the string in double quotes and VS6 or using backward slash
+
+    ARRAYS: are special types of variables that store more than one piece of related information.
+
+    OPERATORS: ASSIGNMENT , COMPARISON, ARITHMETIC, LOGICAL, STRING.
+    ARITHMETI C OPERATORS: ADDITION, DIVISION, MODULUS
+
+Chapter 4
+
+operation oprators :
+
+    which used to compare values and test if condition met or not .like(=,>,<.etc)
+
+• == is Equal != not Equal
+
+• === strict equal (the value and datatype must equal then return True)
+
+• !== strict not Equal (the value and datatype must not equal then return True)
+
+• Structure condition: in bracts (first operand (comparison operators like >=)second operand )
+
+To component to bulid decision
+
+    Evaluation condition which return True or False value. Like IF(6>=10)
+    Conditional statement which it means if the condition met the execute code Ex: if (5>10) {alert (“code will execute here if condition True”) } Else { Alert (“code will execute here if condition False”)) } comparison operator usually return single values Logical operator allow to compart result more than one comparison operators. And like && : if (age >16 && age <30) OR like || : if (age >16 ||age <30) Nor like ! ::: !(1==5);
+
+LOOP
+
+To execute a set of code in one block until condition not met and to reduced redundant code
+
+    3 type of loop
+      1.  For: used when the iteration (time ) know. like print ur Name 10 time. For (initialization, condition ,update) { set of code, }
+
+    2. while :used if we not know the # of iteration . While(condtion) { Execute code }
+
+    3.do..While:is the same while the key different is the code will execute at least one time . Do{ Execute code at least 1 before checking condition }while();
+
