@@ -7,6 +7,7 @@ My names `osama Alali` graduate from Yarmouk university   in 2011 , I have 2 yea
 # Code 102 - Intro to Software Development
 
 |     Topic     |   web page                 |
+
 | ------------  | -------------------------  |
 
 | Text Editor   |[Read](Editor.md)           |
@@ -57,6 +58,7 @@ My names `osama Alali` graduate from Yarmouk university   in 2011 , I have 2 yea
 | class-14b | [readclass14b](class-14b.md)   |
 
 # Code 301 - Intermediate Software Development
+
 | Topic         |       webpage              |
 | ------------- |----------------------------|
 
