@@ -44,6 +44,7 @@ My names `osama Alali` graduate from Yarmouk university   in 2011 , I have 2 yea
 |    Class-03   |[Class-03 read](code301-class03.md) |
 |    Class-04   |[Class-04 read](code301-class04.md) |
 |    Class-05   |[Class-05 read](code301-class05.md) |
+|    Class-06   |[Class-06 read](code301-class06.md)
 
 # Code 401 - Advanced Software Development
 
