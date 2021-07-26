@@ -59,4 +59,5 @@ My names `osama Alali` graduate from Yarmouk university   in 2011 , I have 2 yea
 | Topic         |       webpage              |
 | ------------- |----------------------------|
 |    Class-01   |[Class-01 Java Basics](code401-01.md) |
-|   class-02    |[Class-01 array](code401-02.md) | 
+|   class-02    |[Class-02 array](code401-02.md) | 
+|   class-03    |[Class-03 ](code401-03.md) |
