@@ -64,3 +64,4 @@ My names `osama Alali` graduate from Yarmouk university   in 2011 , I have 2 yea
 |   class-04    |[Class-04 ](code401-04.md) |
 |   Linked Lists    |[Class-05](code401-05.md) |
 |  Interface  |[Class-06](code401-06.md) |
+|  SOLD |[Class-06](code401-08.md) |
